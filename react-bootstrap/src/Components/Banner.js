@@ -2,7 +2,7 @@ import React from 'react'
 import ebook from '../assets/img/ebook-cover.png';
 function Banner() {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid bg-light">
         <div className="section bg-light text-center align-items-center justify-content-center pt-4  mb-4">
             <div className="row align-items-center">
                 <div className="col-lg-6">
