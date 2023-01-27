@@ -2,4 +2,15 @@
     background-image: url(../../assets/banner.jpg);
     height: 700px;
     width: 100%;
+    display: flex;
 }
+
+.content{
+
+    height: 250px;
+    width: 44%;
+    padding-left: 177px;
+    padding-top: 300px;
+    
+}
+
