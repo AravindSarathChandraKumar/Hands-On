@@ -1,8 +1,7 @@
-.nav{
+.nav_contents{
     position: fixed;
     width:100%;
     height: 70px;
-    background-color: #111;
     display:flex;
     top:0;
     padding : 20px;
@@ -22,4 +21,9 @@
     right: 20px;
     width: 30px;
     padding-bottom: 10px;
+}
+
+
+.nav_black{
+    background-color: #111;
 }
