@@ -3,24 +3,18 @@ import './Banner.css'
 import axios from '../../axios';
 import requests from '../../Requests';
 function Banner() {
-
+  
   const[movies,setMovies]= useState([]);
-
   useEffect(() => {
-   
     async function fetchMovies(){
-
       const req = await axios.get(requests.netflixOriginals);
       setMovies( req.data.results[Math.floor(Math.random()* req.data.results.length-1)]);
       return req
     }
-
     fetchMovies();
-   
-
   }, [])
 
-  console.log(movies);
+
   function trunDescription(string,n){
       return string?.length > n? string.substring(0,n-1)+"...": string;
   }
